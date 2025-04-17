@@ -26,10 +26,10 @@ const TechStack = () => {
             <div className='w-full h-full md:px-10 px-5'>
                 <TitleHeader title={"My Preferred Tech Stack"} sub={"🤝 The Skills I Bring to the Table"} />
 
-                <div className='tech-grid relative'>
+                <div className='flex mt-16 gap-14 justify-center relative'>
                 {
                     techStackIcons.map((techStackIcon) => (
-                        <div key={techStackIcon.name} className="card-border relative tech-card overflow-hidden group xl:rounded-full rounded-lg" >
+                        <div key={techStackIcon.name} className="card-border w-72 relative tech-card overflow-hidden group xl:rounded-full rounded-lg" >
                             <div className="tech-card-animated-bg" />
                                 <div className="tech-card-content">
                                     <div className="tech-icon-wrapper">

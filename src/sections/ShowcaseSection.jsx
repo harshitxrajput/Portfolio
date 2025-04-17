@@ -46,9 +46,9 @@ const ShowcaseSection = () => {
             <div className='showcaselayout'>
                 {/* LEFT */}
                 <div className='first-project-wrapper' ref={project1Ref}>
-                    <div className='image-wrapper'>
-                        <img src="/images/project1.png" alt="ChatSync" />
-                    </div>
+                    <a className='image-wrapper object-contain' href='https://chatsync-c0xd.onrender.com' target='_blank'>
+                        <img src="/images/project1.png" alt="ChatSync" className='object-fill border-2'/>
+                    </a>
 
                     <div className='text-content'>
                         <h2>ChatSync — Keeping Conversations in Perfect Sync.</h2>
@@ -61,16 +61,18 @@ const ShowcaseSection = () => {
                 {/* RIGHT */}
                 <div className='project-list-wrapper overflow-hidden'>
                     <div className='project' ref={project2Ref}>
-                        <div className='image-wrapper bg-[#ffefdb]'>
-                            <img src="/images/project2.png" alt="X Clone" />
+                        <div className='image-wrapper p-2 bg-[#ffffff8b]'>
+                            <a href="https://harshitrajput-twitterclone.onrender.com" target='_blank'>
+                                <img src="/images/project2.png" alt="X Clone" className='object-fill border-2' />
+                            </a>
                         </div>
 
                         <h2>TweetSphere — A Place for Every Voice.</h2>
                     </div>
 
                     <div className='project' ref={project3Ref}>
-                        <div className='image-wrapper bg-[#ffe7eb]'>
-                            <img src="/images/project3.png" alt="Tomato" />
+                        <div className='image-wrapper px-0 bg-[#ffe7eb]'>
+                            <img src="/images/project3.png" alt="Tomato" className='object-fill border-2' />
                         </div>
 
                         <h2>Tomato — Delivering Happiness, One Meal at a Time.</h2>

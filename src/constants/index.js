@@ -11,10 +11,10 @@ const navLinks = [
       name: "Skills",
       link: "#skills",
     },
-    {
-      name: "Testimonials",
-      link: "#testimonials",
-    },
+    // {
+    //   name: "Testimonials",
+    //   link: "#testimonials",
+    // },
   ];
   
   const words = [
@@ -29,10 +29,10 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 5, suffix: "+", label: "Personal & Academic Projects" },
+    { value: 2, suffix: "nd", label: "Position in Appathon" },
+    { value: 1, suffix: "", label: "Consolation Prize-SIH Internal Hackathon" },
+    { value: 100, suffix: "%", label: "Passion for Learning & Building" },
   ];
   
   const logoIconsList = [
@@ -119,24 +119,24 @@ const navLinks = [
       scale: 1,
       rotation: [0, 0, 0],
     },
-    {
-      name: "Data Analysis",
-      modelPath: "/models/python-transformed.glb",
-      scale: 0.8,
-      rotation: [0, 0, 0],
-    },
+    // {
+    //   name: "Data Analysis",
+    //   modelPath: "/models/python-transformed.glb",
+    //   scale: 0.8,
+    //   rotation: [0, 0, 0],
+    // },
     {
       name: "Backend Developer",
       modelPath: "/models/node-transformed.glb",
       scale: 5,
       rotation: [0, -Math.PI / 2, 0],
     },
-    {
-      name: "Interactive Developer",
-      modelPath: "/models/three.js-transformed.glb",
-      scale: 0.05,
-      rotation: [0, 0, 0],
-    },
+    // {
+    //   name: "Interactive Developer",
+    //   modelPath: "/models/three.js-transformed.glb",
+    //   scale: 0.05,
+    //   rotation: [0, 0, 0],
+    // },
     {
       name: "Git Control",
       modelPath: "/models/git-svg-transformed.glb",
@@ -151,11 +151,11 @@ const navLinks = [
         "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
       imgPath: "/images/exp1.png",
       logoPath: "/images/react_logo.png",
-      title: "Frontend Developer",
-      date: "January 2023 - Present",
+      title: "Participated in Appathon (Annual Fest), JIMS",
+      date: "February 2025",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+        "Developed and deployed a React app with Tailwind CSS, securing 3rd place out of 25+ teams.",
+        "Designed a responsive, user-friendly interface, improving load time by 30% through performance optimization.",
         "Optimized web applications for maximum speed and scalability.",
       ],
     },
@@ -163,26 +163,24 @@ const navLinks = [
       review:
         "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
       imgPath: "/images/exp2.png",
-      logoPath: "/images/node_logo.png",
-      title: "Full Stack Developer",
-      date: "June 2020 - December 2023",
+      logoPath: "/images/html_logo.png",
+      title: "Participated in Smart India Hackathon, JIMS",
+      date: "September 2024",
       responsibilities: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
+        "Applied Web Dev skills to build a real-world project, enhancing technical proficiency by 25\%.",
+        "Collaborated with 5+ team members to brainstorm ideas, divide tasks, and integrate contributions into a cohesive final product.",
       ],
     },
     {
       review:
         "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
       imgPath: "/images/exp3.png",
-      logoPath: "/images/python_logo.png",
-      title: "Data Analyst",
-      date: "March 2019 - May 2020",
+      logoPath: "/images/coor_logo.png",
+      title: "Event Co-Ordinator at Annual College Cultural Fest (VERVE), JIMS",
+      date: "February 2024",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-        "Improved app performance and user experience through code optimization and testing.",
-        "Coordinated with the product team to implement features based on feedback.",
+        "Coordinated with 30+ participants, 10+ judges, and 50+ volunteers, ensuring 100\% execution success of events and activities.",
+        "Managed 200+ registrations, scheduling, and logistics, improving event efficiency by 20\%"
       ],
     },
   ];
