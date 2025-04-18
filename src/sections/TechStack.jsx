@@ -26,7 +26,7 @@ const TechStack = () => {
             <div className='w-full h-full md:px-10 px-5'>
                 <TitleHeader title={"My Preferred Tech Stack"} sub={"🤝 The Skills I Bring to the Table"} />
 
-                <div className='flex mt-16 gap-14 justify-center relative'>
+                <div className=' flex-col mt-16 sm:flex-col md:flex-row gap-14 justify-center items-center flex relative'>
                 {
                     techStackIcons.map((techStackIcon) => (
                         <div key={techStackIcon.name} className="card-border w-72 relative tech-card overflow-hidden group xl:rounded-full rounded-lg" >

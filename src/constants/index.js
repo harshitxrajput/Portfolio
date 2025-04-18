@@ -30,7 +30,7 @@ const navLinks = [
   
   const counterItems = [
     { value: 5, suffix: "+", label: "Personal & Academic Projects" },
-    { value: 2, suffix: "nd", label: "Position in Appathon" },
+    { value: 3, suffix: "rd", label: "Position in Appathon" },
     { value: 1, suffix: "", label: "Consolation Prize-SIH Internal Hackathon" },
     { value: 100, suffix: "%", label: "Passion for Learning & Building" },
   ];

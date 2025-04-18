@@ -5,9 +5,12 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='footer-container'>
-                <div className='flex flex-col justify-center md:items-start items-center'>
-                    <a href="#hero" className='w-10'>
-                        <img src="/images/Favicon.png" alt="" />
+                <div className='flex gap-3 justify-center md:items-start md:mr-90'>
+                    <a href="#hero" className='w-7 md:w-10'>
+                        <img className='w-full' src="/images/Favicon.png" alt="" />
+                    </a>
+                    <a href="https://github.com/harshitxrajput" target='_blank' className='w-7 md:w-10'>
+                        <img className='w-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6DXuvit57V1DmjnlLcwst4O-sTL5D37gIQ&s" alt="" />
                     </a>
                 </div>
 

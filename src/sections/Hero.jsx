@@ -26,14 +26,14 @@ const Hero = () => {
     })
 
     return (
-        <section id='hero' className='relative overflow-hidden'>
+        <section id='hero' className='relative overflow-hidden mt-20'>
             <div className='absolute top-0 left-0 z-10'>
                 <img src="/images/bg.png" alt="background" />
             </div>
         
-            <div className='hero-layout'>
+            <div className='hero-layout h-full'>
                 {/* Left Content */}
-                <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
+                <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-8 mb-10'>
                     <div className='flex flex-col gap-7'>
                         <div className='hero-text'>
                             <h1>Shaping 
@@ -52,18 +52,18 @@ const Hero = () => {
                             <h1>that Deliver Results</h1>
                         </div>
                         <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-                            Hi I'm Harshit, a Full Stack Web Developer based in India with a passion for build useful things
+                            Hi I'm Harshit, a Full Stack Web Developer based in India with a passion for building useful things
                         </p>
                         <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work"/>
                     </div>
                 </header>
 
                 {/* Right: 3D Model */}
-                <figure>
-                    <div className='hero-3d-layout'>
-                        {/* <HeroExperience /> */}
+                {/* <figure>
+                    <div className='hero-3d-layout h-0'>
+                        <HeroExperience />
                     </div>
-                </figure>
+                </figure> */}
             </div>
 
             <AnimatedCounter />
